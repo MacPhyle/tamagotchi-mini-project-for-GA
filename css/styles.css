@@ -1,7 +1,14 @@
 /* testing files are linked */
-/* body {
-    background-color: red;
-} */
+body {
+    /* background-color: red; */
+    /* a gradient in the background */
+    background: linear-gradient(135deg, rgba(158,107,232,1) 0%, rgba(80,45,253,1) 100%);
+    /* an image in front of the gradient */
+    background-image: url("./../img/tamagotchiCharacter.png");
+    background-size: 100vw;
+    background-repeat: repeat-n;
+}
+
 /* h1 {
     font-size: 200px;
 } */
