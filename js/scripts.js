@@ -20,4 +20,6 @@ const tamagotchi = {
     // FurColor: randomColor,
     // eyesColor: randomColor
 };
+
+
     // event listeners/handlers that call methods
