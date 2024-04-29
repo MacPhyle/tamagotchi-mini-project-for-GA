@@ -2,59 +2,57 @@
 body {
     /* background-color: red; */
     /* a gradient in the background */
-    background: linear-gradient(135deg, rgba(158,107,232,1) 0%, rgba(80,45,253,1) 100%);
+    background: linear-gradient(135deg, rgba(158, 107, 232, 1) 0%, rgba(80, 45, 253, 1) 100%);
     /* an image in front of the gradient */
     background-image: url("./../img/tamagotchiCharacter.png");
     background-size: 100vw;
-    background-repeat: repeat-n;
-};
-
-div {
-    background-color: cyan;
+    background-repeat: no-repeat;
+    text-align: center;
 }
 
-.flex-container {
-    /* max-width: 1200px; */
-    /* margin: auto;
-    /* position: absolute; */
-    /* top: 0%;
+/* div {
+    background-color: cyan;
+} */
+
+/* .flex-container {
+    max-width: 1200px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
     left: 0%;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     display: flex;
     background-color: gray;
     flex-direction: column;
     justify-content: center;
     width: 60vw;
     align-items: center;
-};
+}; */
 
-.flex-container > div {
-    /* 
+/* .flex-container > div {
     width: 25%;
     margin: 10px;
-     */
     display: flex;
     background-color: purple;
     text-align: center;
-};
+}; */
 
-#statsHeaders {
+/* #statsHeaders {
     color: chartreuse;
-    /* display: inline; */
+    display: inline;
     flex-direction: row;
+}; */
 
-};
-
-h1 {
-    font-size: 100px;
-    color: white;
-    font-family: "bree", sans-serif;
-    font-weight: 800;
+/* h1 { */
+    /* font-size: 100px;
+    color: white; */
+    /* font-family: "bree", sans-serif; */
+    /* font-weight: 800;
     font-style: normal;
-    margin-left: auto;
-};
+    margin-left: auto; */
+/* } */
 
-h2 {
+/* h2 {
     font-family: "parlare", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -63,15 +61,15 @@ h2 {
     padding-left: 290px;
     line-height: 20%;
     margin-right: auto;
-};
+} */
 
-h3 {
+/* h3 {
     font-size: 24px;
     /* padding-left: 25px;
     padding-right: 25px; */
-    text-align: center;
+    /* text-align: center;
     color: white;
-};
+} */
 
 /* h4 {
     padding-left: 100px;
