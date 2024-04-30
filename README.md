@@ -1,2 +1,4 @@
 # tamagotchi-mini-project-for-GA
-a mini-project I'm working on as a General Assembly student
+
+
+Basic functions that change graphics when variable are updated and buttons or graphics are clicked. Ability to enter the pet's name.
