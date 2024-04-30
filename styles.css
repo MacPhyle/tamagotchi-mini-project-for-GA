@@ -1,0 +1,90 @@
+/* testing files are linked */
+html {
+    /* color for if the background gradient doesn't work on some devices */
+    background-color: rgba(158, 107, 232, 1);
+    /* a gradient in the background */
+    background: linear-gradient(135deg, rgba(158, 107, 232, 1) 0%, rgba(80, 45, 253, 1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vp;
+    height: 100vp;
+}
+
+body {
+    /* an image in front of the gradient */
+    /* background-image: url("./../img/tamagotchiCharacter2.png"); */
+   
+    text-align: center;
+}
+
+/* #statsHeaders {
+    display: inline;
+    line-height: 40px;
+};
+
+hr {
+    width: 60;
+} */
+
+/* div {
+    background-color: cyan;
+} */
+
+/* .flex-container {
+    max-width: 1200px;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
+    align-items: center;
+}; */
+
+/* .flex-container > div {
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    background-color: purple;
+    text-align: center;
+}; */
+
+/* .flex-container > div {
+    align-items: top;
+} */
+
+/* h1 { */
+/* font-size: 100px;
+    color: white; */
+/* font-family: "bree", sans-serif; */
+/* font-weight: 800;
+    font-style: normal;
+    margin-left: auto; */
+/* } */
+
+/* h2 {
+    font-family: "parlare", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff2cc;
+    font-size: 50px;
+    padding-left: 290px;
+    line-height: 20%;
+    margin-right: auto;
+} */
+
+/* h3 {
+    font-size: 24px;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+/* text-align: center;
+    color: white;
+} */
+
+/* h4 {
+    padding-left: 100px;
+} */
