@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="https://use.typekit.net/zuc7qoh.css">
     <title>Your Own Virtual Pet!</title>
     <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" defer></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" defer></script>
     <script src="./js/scripts.js" defer></script>
-        <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
             <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
             <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
             <link rel="manifest" href="/manifest.webmanifest"> -->
+
 </head>
 
 <body>
@@ -39,15 +42,80 @@
         </div>-->
     <h1>Hatch a Virtual Pet</h1>
     <h2>and keep it alive!</h2>
-    <h3 id="petName">NAME</h3>
 
-    <ul class="statsList">
-        <li>AGE</li>
-        <li>HEALTH</li>
-        <li>HUNGER</li>
-        <li>FATIGUE</li>
-        <li>BOREDOM</li>
-    </ul>
+    <!-- <div class="li" id="petNameLabel">YOUR PET'S NAME:</div> -->
+    <!-- <div class="value" id="petName"></div>
+    <button type="button" id="petNameSubmit">Submit</button> -->
+    <!-- <form action="/action_page.php">
+        <input type="text" id="petName" name="petName"><br><br>
+        <input type="submit" value="Submit">
+    </form> -->
+
+    <label for="petName" id="pnl">YOUR PET'S NAME:</label>
+    <input id="userInput" type="text" placeholder="Enter Text">
+    <button onclick="returnText()">Submit</button>
+
+    <div class="rule">
+        <hr id="thickLine">
+    </div>
+
+    <!--
+        I kind of wish I didn't know what other people's projects look like  before mine's done. But just to make it clear, I did think of including a health indicator, as a combination of the hunger/fatigue/boredom indicators, before I knew Konstantin's doing the same thing. We each came up with the idea independently, and I expect we're probably not the only ones. But just so you know, I was thinking about it before I knew it was in Konstantin's project too.
+    -->
+
+    <div class="statsHeaders">
+        <!-- <ul class="statsList"> -->
+        <div class="li">AGE</div>
+        <div class="li">HEALTH</div>
+        <div class="li">HUNGER</div>
+        <div class="li">FATIGUE</div>
+        <div class="li">BOREDOM</div>
+        <!-- </ul> -->
+    </div>
+
+    <br>
+
+    <div class="statsValues">
+        <div class="li" id="ageValSpace">0</div>
+        <div class="li" id="healthValSpace">100</div>
+        <div class="li" id="hungerValSpace">0</div>
+        <div class="li" id="fatigueValSpace">0</div>
+        <div class="li" id="boredomValSpace">0</div>
+    </div>
+
+    <br>
+
+    <div>
+        <button class="actions" onclick="feed()">Feed</button>
+        <button class="actions" onclick="play()">Play</button>
+        <img class="actions" onclick="sleep()" id="lightSwitch" src="img/on.png"></button>
+        <img id="character" src="img/betterTamagotchi_egg.png">
+    </div>
+
+    <!-- <div class="grid-container">
+        <ul class="statsList">
+        <div class="box1">YOUR PET'S NAME:</div>
+        <div class="box2"></div>
+        <div class="box3">AGE</div>
+        <div class="box4">HEALTH</div>
+        <div class="box5">HUNGER</div>
+        <div class="box6">FATIGUE</div>
+        <div class="box7">BOREDOM</div>
+        </ul>
+        <hr>
+    </div> -->
+
+
+    <!-- <div class="grid-parent">
+        <ul class="statsList">
+            <li>AGE</li>
+            <li>HEALTH</li>
+            <li>HUNGER</li>
+            <li>FATIGUE</li>
+            <li>BOREDOM</li>
+        </ul>
+    </div> -->
+
     <!-- <h3>NAME</h3>
     <h3>AGE</h3>
     <h3>HEALTH</h3>
@@ -60,7 +128,7 @@
             <h3>HUNGER</h3>
             <h3>FATIGUE</h3>
             <h3>BOREDOM</h3> -->
-    
+
 </body>
 
 </html>

@@ -1,14 +1,30 @@
 /* testing files are linked */
-body {
-    /* background-color: red; */
+html {
+    /* color for if the background gradient doesn't work on some devices */
+    background-color: rgba(158, 107, 232, 1);
     /* a gradient in the background */
     background: linear-gradient(135deg, rgba(158, 107, 232, 1) 0%, rgba(80, 45, 253, 1) 100%);
-    /* an image in front of the gradient */
-    background-image: url("./../img/tamagotchiCharacter.png");
-    background-size: 100vw;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 100vp;
+    height: 100vp;
+}
+
+body {
+    /* an image in front of the gradient */
+    /* background-image: url("./../img/tamagotchiCharacter2.png"); */
+   
     text-align: center;
 }
+
+/* #statsHeaders {
+    display: inline;
+    line-height: 40px;
+};
+
+hr {
+    width: 60;
+} */
 
 /* div {
     background-color: cyan;
@@ -37,17 +53,15 @@ body {
     text-align: center;
 }; */
 
-/* #statsHeaders {
-    color: chartreuse;
-    display: inline;
-    flex-direction: row;
-}; */
+/* .flex-container > div {
+    align-items: top;
+} */
 
 /* h1 { */
-    /* font-size: 100px;
+/* font-size: 100px;
     color: white; */
-    /* font-family: "bree", sans-serif; */
-    /* font-weight: 800;
+/* font-family: "bree", sans-serif; */
+/* font-weight: 800;
     font-style: normal;
     margin-left: auto; */
 /* } */
@@ -67,7 +81,7 @@ body {
     font-size: 24px;
     /* padding-left: 25px;
     padding-right: 25px; */
-    /* text-align: center;
+/* text-align: center;
     color: white;
 } */
 
