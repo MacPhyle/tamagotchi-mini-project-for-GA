@@ -88,13 +88,13 @@ for (let age = 0; age < 10000; age++) {
 }
 
 if (age = 1) {
-    $("#character").attr("src", "img/betterTamagotchi_hatching.png")
+    $("#character").attr("src", "betterTamagotchi_hatching.png")
 } else if (age = 2) {
-    $("#character").attr("src", "img/betterTamagotchi_hatched.png")
+    $("#character").attr("src", "betterTamagotchi_hatched.png")
 } else if (age > 2) {
-    $("#character").attr("src"), "img/betterTamagotchi_happy.png"
+    $("#character").attr("src"), "betterTamagotchi_happy.png"
 } else if (age = 10000) {
-    $("#character").attr("src"), "img/betterTamagotchi_death.png"
+    $("#character").attr("src"), "betterTamagotchi_death.png"
 }
 
 function feed() {
@@ -117,7 +117,7 @@ function sleep() {
 
 function loss() {
     if (tamagotchi.health == 0 || tamagotchi.hunger == 100 || tamagotchi.fatigue == 100 || tamagotchi.boredom == 100) {
-        $("#character").attr("src"), "img/betterTamagotchi_death.png"
+        $("#character").attr("src"), "betterTamagotchi_death.png"
     }
 }
 
