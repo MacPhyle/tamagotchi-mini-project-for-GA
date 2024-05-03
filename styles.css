@@ -12,7 +12,7 @@ html {
 
 body {
     /* an image in front of the gradient */
-    /* background-image: url("./../img/tamagotchiCharacter2.png"); */
+    /* background-image: url("tamagotchiCharacter2.png"); */
    
     text-align: center;
 }

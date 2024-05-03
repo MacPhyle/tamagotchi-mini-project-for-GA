@@ -111,7 +111,7 @@ function play() {
 function sleep() {
     tamagotchi.fatigue--;
     tamagotchi.health++;
-    $("#character").attr("src"), "img/off.png"
+    $("#character").attr("src"), "off.png"
     $(document).css("background-color", "black")
 }
 
